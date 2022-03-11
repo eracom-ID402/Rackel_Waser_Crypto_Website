@@ -1,0 +1,72 @@
+ 
+
+   .header {
+      background: rgb(108, 133, 103);
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    footer {
+      background: rgb(38, 90, 51);
+      min-height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    ol {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacer);
+      margin: 0;
+      padding: var(--spacer) 0;
+    }
+    ol li {
+      font-size: 25px;
+      min-height: 7em;
+      min-width: 20ch;
+      display: block;
+      margin: 0;
+      padding: var(--spacer);
+    
+      flex: 1 1 auto;
+    }  
+
+   h1 {
+    font-size: 60px;}
+
+
+    ul {
+      background-color: beige;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 100px;
+    }
+
+    ul > * {
+      padding: 25px;
+    }
+    
+  
+    li {
+      grid-column-start: 1;
+      background: rgb(2, 65, 56);
+      text-align: center;
+
+    }
+    .coins {
+      grid-row-start: 2;
+      background: rgb(20, 105, 84);
+      text-align: center;
+
+    }
+
+    .trade {
+      grid-row-start: 3;
+      background: rgb(117, 185, 143);
+      text-align: center;
+    }
+    
+  
