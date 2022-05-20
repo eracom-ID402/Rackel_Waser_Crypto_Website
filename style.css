@@ -1,24 +1,24 @@
- 
-body {
-  margin: 0;
-}
-   .header {
-      background: rgb(108, 133, 103);
-      min-height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-   
-    footer {
-      background: rgb(12, 155, 180);
-      min-height: 30vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+ body {
+   margin: 0;
+ }
 
-    /*ol {
+ .header {
+   background: rgb(108, 133, 103);
+   min-height: 60vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ footer {
+   background: rgb(12, 155, 180);
+   min-height: 30vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ /*ol {
       display: flex;
       flex-wrap: wrap;
       gap: var(--spacer);
@@ -36,36 +36,19 @@ body {
       flex: 1 1 auto;
     }  **/
 
-   h1 {
-    font-size: 60px;}
+ h1 {
+   font-size: 60px;
+ }
 
 
-    nav {
-      background-color: beige;
-      color: rgb(108, 133, 103);
-      height: 10vh;
-      width: 100%;
-      padding-left: 5vw;
-      padding-right: 5vw;
-      display: grid;
-      grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-      
-    }
-
-.home {
-  grid-column-start: 1;
-}
-
-.price {
-  grid-column-start: 2;
-}
-.coins {
-  grid-row-start: 3;
-
-    }
-
-.trade {
-  grid-row-start: 4;
-    }
-    
-  
+ nav {
+   background-color: beige;
+   color: rgb(108, 133, 103);
+   height: 10vh;
+   width: 100%;
+   padding-left: 10vw;
+   padding-right: 10vw;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   align-items: center;
+ }
