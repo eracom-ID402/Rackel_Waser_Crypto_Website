@@ -52,3 +52,19 @@
    grid-template-columns: 1fr 1fr 1fr 1fr;
    align-items: center;
  }
+
+ :hover .home {
+   cursor: pointer;
+ }
+
+ :hover .price {
+   cursor: pointer;
+ }
+
+ :hover .coins {
+   cursor: pointer;
+ }
+
+ :hover .trade {
+   cursor: pointer;
+ }
